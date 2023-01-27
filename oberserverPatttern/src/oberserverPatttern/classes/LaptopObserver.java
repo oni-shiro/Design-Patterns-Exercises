@@ -9,7 +9,7 @@ public class LaptopObserver implements ObserverInterface {
 	private ObservableInterface interfaceObj;
 
 	public LaptopObserver(ObservableInterface obj, String name) {
-		this.interfaceObj = obj;
+		this.setInterfaceObj(obj);
 		this.name = name;
 	}
 
@@ -17,6 +17,14 @@ public class LaptopObserver implements ObserverInterface {
 	public void update() {
 		System.out.println("Laptops are again in stock, Mr. "+ name);
 
+	}
+
+	public ObservableInterface getInterfaceObj() {
+		return interfaceObj;
+	}
+
+	public void setInterfaceObj(ObservableInterface interfaceObj) {
+		this.interfaceObj = interfaceObj;
 	}
 
 }
