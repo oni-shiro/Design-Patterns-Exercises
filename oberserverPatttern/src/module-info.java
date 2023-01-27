@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author sinch
+ *
+ */
+module oberserverPatttern {
+}
