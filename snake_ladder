@@ -1,0 +1,20 @@
+#snake and ladder game -> LLD
+
+
+Flow :
+
+Requirement:
+1. How Many dice we have?
+2. Both same sided ?
+3. how many players can play together
+4. how many snakes & ladder are there -> set up dynamically
+5. winning condition-> any one reaches game finish
+
+
+
+Objects : 
+1. Dice
+2. Snanke
+3. Ladder
+4. Board
+5. Player
