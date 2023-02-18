@@ -18,3 +18,40 @@ Objects :
 3. Ladder
 4. Board
 5. Player
+6. Cell
+7. Game
+
+
+Object based Design
+
+class Player{
+	int id;
+	int position;
+}
+
+class Dice{
+	int diceCount;
+	rollDice();
+}
+
+class Jump{
+	int start;
+	int end;
+	//both snake and ladder are same object
+}
+
+Board{
+	Cell[][] cells;
+	
+}
+
+Cell{
+	Jump jump;
+}
+
+Game{
+	Board board;
+	Dequeue<Player> playerList; -> [p1,p2] when p1's turn is over remove from front and add
+								at back [p2,p1] -> who ever is at front will get the dice
+	Dice dice;
+}
