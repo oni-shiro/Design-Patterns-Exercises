@@ -1,5 +1,4 @@
 package oberserverPatttern.interfaces;
-
 public interface ObservableInterface {
 	
 	void addObserver(ObserverInterface obj);
