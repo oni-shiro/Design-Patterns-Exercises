@@ -1,0 +1,7 @@
+.stream().map() or .filter .collect(Collectors.asList())
+
+* map() vs flatMap()
+map will return same value if the data is 2d ie list<list>
+
+flatMap() flattens the data and does the operations
+difference flatMap only takes stream as input

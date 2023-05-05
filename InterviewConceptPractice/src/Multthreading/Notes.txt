@@ -1,0 +1,66 @@
+* Difference between threads and processes
+
+threads run on same address -> easy to switch in between
+processes are different and independent -> costly and time taking to switch in between
+
+* User thread and Daemon Thread
+
+Main thread is a user thread
+
+once all the user threads complete execution JVM might continue with daemon or not,
+daemon thread only gets priority while there is least one user thread left
+make user thread a daemon -> thread.setDaemon(true);
+
+* Race condition
+
+When a shared object or variable or block of code is accessed by multiple threads and updated
+it causes inconsistent behaviour in the code
+
+* synchronized
+
+add synchronized keyword to make it thread safe, synchronized() works with a lock (any object can be a lock)
+if a thread have a lock every method who have synchronized with same lock can be accessed by that thread only
+
+synchronized(Object lock){
+ ...block of code
+}
+
+
+---------
+public synchronized void func(){
+
+}
+
+----------
+above translates to
+public void func(){
+    synchronized(this){
+        ...implementation
+    }
+}
+------------
+for static method using reflection api use the class of the method as lock
+ex:
+public static func2(){
+    synchronized(ParentClass.class){
+        ...
+    }
+}
+
+
+* Volatile keyword
+volatile int var = 10;
+a volatile variable is directly read from RAM instead of cache
+
+* Producer Consumer issue
+
+thread.wait();
+thread.notifyAll();
+
+* States of Thread (in brief)
+New
+Runnable
+Running
+Blocked (Non-runnable state)
+Dead
+
