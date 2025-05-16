@@ -1,0 +1,15 @@
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\bin\Debug\net9.0\weather-app.exe
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\bin\Debug\net9.0\weather-app.deps.json
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\bin\Debug\net9.0\weather-app.runtimeconfig.json
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\bin\Debug\net9.0\weather-app.dll
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\bin\Debug\net9.0\weather-app.pdb
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.AssemblyInfoInputs.cache
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.AssemblyInfo.cs
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.csproj.CoreCompileInputs.cache
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.sourcelink.json
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.dll
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\refint\weather-app.dll
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.pdb
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\weather-app.genruntimeconfig.cache
+C:\Dev\Design-Patterns-Exercises\Dotnet-Design-Patterns\weather-app\obj\Debug\net9.0\ref\weather-app.dll
